@@ -2,9 +2,6 @@
 
 int main()
 {
-     std::cout << "/*";
-     std::cout << "*/";
-     //std::cout << /* "*/" */ WTF, obviously not.
-     std::cout << /* "*/" /* "/*" */; //So broken, it actually works.
+     std::cout/* << "This is a */wrong placed comment" std::endl;
      return 0;
 }
