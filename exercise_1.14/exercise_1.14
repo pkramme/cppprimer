@@ -1,0 +1,5 @@
+Advantages:
+- Less space needed, uses variable is used only in for scope
+
+Disadvantage:
+- cant use existing variables
